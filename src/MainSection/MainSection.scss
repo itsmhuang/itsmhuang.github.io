@@ -1,0 +1,48 @@
+.main-section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-image: url("../static/media/cubes.png");
+    background-color: #3493AF;
+    background-attachment: fixed;
+    color: #EDEDED;
+
+    .social-icons {
+        li {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .fa:hover {
+            color: #FF6F69;
+        }
+
+        .icon .fa {
+            height: 50px;
+            width: 50px;
+            background-color: transparent;
+            border: 3px solid #EDEDED;
+            border-radius: 50%;
+        }
+
+        .icon .fa:hover {
+            background-color: #EDEDED;
+            border: 3px solid #FF6F69;
+            border-radius: 50%;
+        }
+
+        .fa {
+            font-size: 2.8em;
+            color: #EDEDED;
+            position: relative;
+            margin: 0 20px;
+            padding-top: 8px;
+        }
+    }
+
+}
+

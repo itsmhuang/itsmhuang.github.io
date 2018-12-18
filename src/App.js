@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.scss';
 
-import Navbar from './Navbar/Navbar';
-
+import MainSection from './MainSection/MainSection'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-          <Navbar/>
-      
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <MainSection/>
+            </div>
+        );
+    }
 }
 
 export default App;
