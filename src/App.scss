@@ -1,3 +1,8 @@
-.App {
-
+body {
+  font-family: "Muli", Sans-Serif;
+  font-weight: 300;
+  font-size: 62.5%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
